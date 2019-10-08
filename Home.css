@@ -1,0 +1,118 @@
+ body{
+ 	margin 0;
+ 	padding 0;
+ 	font-family: sans-serif;
+ }
+
+#header
+{
+	height: 100vh; 
+	background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(code.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	color: white;
+	text-align: center;
+}
+
+.moi{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20%;
+	height: auto;
+	position: center;
+	border-radius: 50%;
+	margin: auto;
+
+}
+
+.moii{
+	border-radius: 50%;
+	margin: auto;
+}
+.presentation{
+	display: block;
+	width: 12%;
+	height: auto;
+}
+
+
+ul{
+	position: sticky;
+	top: 0;
+	list-style-type: none;
+	margin :0;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+li{
+	display: inline;
+	float: left;
+}
+
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration : none;
+}
+
+li a:hover{
+	background-color: #111;
+}
+
+.active{
+	background-color: #4CAF50;
+}
+
+img{
+	
+}
+
+.header{
+	border :3px grey solid;
+}
+
+aside {
+    width: 70%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    margin-top: 10%;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    color: #29627e;
+}
+
+.citation{
+	font-style: italic;
+}
+
+.compétences{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.contact{
+	border-style: solid;
+ 	border-width: 5px;
+
+ }
+
+ .etudes{
+ 	display: flex;
+ 	flex-direction: row;
+ 	justify-content: stretch;
+ }
+
+ .redim{
+ 	border-radius: 50%;
+ 	width: 20%;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ }
