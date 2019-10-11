@@ -2,6 +2,10 @@
  	margin 0;
  	padding 0;
  	font-family: sans-serif;
+ 	background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(code.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
  }
 
 #header
@@ -70,10 +74,6 @@ li a:hover{
 	background-color: #4CAF50;
 }
 
-img{
-	
-}
-
 .header{
 	border :3px grey solid;
 }
@@ -90,21 +90,36 @@ aside {
 
 .citation{
 	font-style: italic;
+	  animation-duration: 3s;
+  animation-name: slidein;
 }
 
-.compétences{
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+#compétences{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-.contact{
+#contact{
 	border-style: solid;
  	border-width: 5px;
 
  }
 
- .etudes{
+ #etudes{
  	display: flex;
  	flex-direction: row;
  	justify-content: stretch;
@@ -116,3 +131,15 @@ aside {
  	margin-left: auto;
  	margin-right: auto;
  }
+
+video{
+	width: auto;
+	height: 120px;
+	position: sticky;
+	top: 8%;
+	left: 90%;
+	margin: 5;
+	padding: 0;
+	overflow: hidden;
+
+}
