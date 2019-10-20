@@ -10,7 +10,7 @@
 	<body> 
 
 		<ul>
-			<li> <a class="active" href="Home.html"> Home </a> </li>
+			<li> <a href="#header"> Home </a> </li>
 			<li> <a href="#Presentation"> A propos de moi </a> </li>
             <li> <a href="#Competences"> Compétences </a> </li>
 			<li> <a href="#Etudes"> Etudes </a> </li>
@@ -32,33 +32,87 @@
 			<p> N'hesitez pas à me contacter pour toute question ou collaboration. </p>
 		</section>
 
-		<main id="Presentation"> 
-		  <section id="Presentation">
-		      	<img class="moii" src="photo2.png">
-			 <aside> Qui suis-je ? <br>
-			     	<p>
-				    	"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
+		<section id="Presentation">
+		      	<img class="petit" src="photo2.png">
+			 <aside id="Cote"> Qui suis-je ? <br>
+			     	<p id="latin">
+				    	Je suis un étudiant ingénieur Parisien. Passionné par les nouvelles technologies, le cinéma, la production musicale et la création de projet. 
+                        Etudiant à l'ECE Paris, j'ai réalisé de nombreux projets techniques en équipe. A l'aise à l'oral et en public, je sais diriger des équipes et être médiateur en cas de conflit. 
+                        Je suis désormais à la recherche d'un stage à Paris ou à l'étranger afin d'améliorer mes compétences techniques.
 			 	   </p>
 
 				    <p class="citation"> 	&laquo; Je pense que tout est possible à qui rêve, ose, travaille et n'abandonne jamais &raquo; <br> Xavier Dolan </p>
 			
 			 </aside>
-		  </section>
+		 </section>
 
-	   <br> <br>
-	   <img id="compétences" src="Compétences.png">
+	    <article id="Competences"> 
+                    <p id="Gauche"> Compétences
+                    <br> <br>
+                    <label for="file"> Développement Web (Back end / Front end) </label> <br>
+                    <progress id="file" max="100" value="70"> 70% </progress>
+                        <br> 
+                    <label for="file"> Programmation C++  </label> <br>
+                    <progress id="file" max="100" value="60"> 60% </progress>
+                    <br>
+                    <label for="file"> Programmation agile (Jira) </label> <br>
+                    <progress id="file" max="100" value="70"> 70% </progress>
+                    <br>
+                    <label for="file"> Maitrîse de l'Anglais et de l'Espangol </label> <br>
+                    <progress id="file" max="100" value="95"> 95% </progress>
+                    <br>
+                    </p>
+                    <br> <br>
+                    <aside id="Droite"> Projets personnels récents 
+                        <br> <br>
+                    <label for="file"> Portefeuille NFC (team project) </label> <br>
+                    <progress id="file" max="100" value="100"> 100% </progress>
+                        <br> 
+                    <label for="file"> Application Musée Paris (solo)  </label> <br>
+                    <progress id="file" max="100" value="60"> 60% </progress>
+                    <br>
+                    <label for="file"> Détecteur de mouvement Arduino (team) </label> <br>
+                    <progress id="file" max="100" value="80"> 80% </progress>
+                    <br>
+                    <label for="file"> Création Algorithme reconaissance Image </label> <br>
+                    <progress id="file" max="100" value="30"> 30% </progress>
+                    <br>
+                    </aside>
+        </article>
 
-       <br>
-       <br>
-
+         <p id="center"> Mes études </p>
        <article id="Etudes">
+        <br>
             <img class="redim" src="stlouise.jpg">
             <img class="redim" src="knu.jpg">
             <img class="redim" src="ece.jpg">
        </article>
 
-       <br> 
-       <form id="contact">
+       <article id="Etudes2">
+           <div id="p1">
+               <p > Lycée Sainte Louise <br> Bac Scientifique avec mention <br> Apprentissage des langues et du C 
+               <br> </p>
+               <img class="icone" src="brit.png">
+               <img class="icone" src="c.png"> 
+               <img class="icone" src="spanish.png">
+           </div>
+
+           <div id="p2">
+               <p id="p2"> Semestre à l'étranger <br> Corée du Sud : KyungPook National University <br> Cursus informatique et éléctronique <br> Team Building international </p>
+               <img class="icone" src="elec.png">
+               <img class="icone" src="flag.png">
+               <img class="icone" src="assembleur.png">
+           </div>
+           <div id="p3">
+               <p> Cursus Ingénieur <br> Technologies Web - Projet Technique <br> UX/UI Design </p>
+               <img class="icone" src="web.png"> <br>
+               <img class="icone" src="android.png">
+           </div>
+
+       </article>
+
+        <section>
+            <form id="Contact">
             Votre nom : <br>
             <input type="text" name="nom"> <br>
             Votre mail  <br>
@@ -66,8 +120,15 @@
             Votre message <br>
             <input type="textarea" name="message"> <br> <br>
             <input type="submit" value="Envoyer">
-
-        </form>
+            </form>
+            <br>
+            <a href="https://www.linkedin.com/in/ruben-yvinec-7311a8157/"> <img class="icone" src="linkedin.png" class="linkedin"> </a>
+            <a href="ruben.yvinec@edu.ece.fr"> <img class="icone" src="mail.png"> </a>
+         </section>
+         <footer>
+            <a href="Home.html"> <img  class="icone" src="top.png"> </a>
+         </footer>
+            
 
 	</body>
 
